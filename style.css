@@ -169,7 +169,7 @@ body{
     margin-top: 15px;
     line-height: 2.0;
     font-size: 18px;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     
 }
 
@@ -232,7 +232,7 @@ body{
         margin-top: 10px;
         line-height: 1.5;
         font-size: 18px;
-        opacity: 0.6;
+        /* opacity: 0.6; */
         
     }
 }
