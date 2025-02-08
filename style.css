@@ -841,7 +841,7 @@ body{
 }
 .main .footer span{
     float: left;
-    margin: 3% 0% 0% 8%;
+    margin: 3% 0% 4% 8%;
     opacity: 0.6;
 }
 .main .footer span i{
