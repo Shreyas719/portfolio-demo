@@ -727,13 +727,237 @@ body{
     background-color: violet;
 }
 
+/* Contact Me  */
+.contact-me-area{
+    width: 100%;
+    height: 700px;
+    float: left;
+}
+.contact-me-area .contact-me-contain-area{
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin: 0% 0% 0% 15%;
+}
+.contact-me-area .contact-me-contain-area .contact-logo{
+    width: 100%;
+    height: 25%;
+    float: left;
+    text-align: center;
+}
+.contact-me-area .contact-me-contain-area .contact-logo h1{
+    text-transform: uppercase;
+}
+.contact-me-area .contact-me-contain-area .contact-logo img{
+    margin-top: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact-logo p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact{
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+.contact-me-area .contact-me-contain-area .contact .part1{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 i{
+    font-size: 30px;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 h2{
+    margin-top: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 p{
+    margin-top: 15px;
+    font-size: 17px;
+    opacity: 0.6;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 .p11{
+    color:#e54b4b;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.contact-me-area .contact-me-contain-area .contact-form{
+    width: 100%;
+    height: 45%;
+    float: left;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-left input{
+    width: 95%;
+    height: 40px;
+    padding-left: 25px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-top: 30px;
+    outline: none;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-right input{
+    margin-top: 30px;
+    width: 95%;
+    height: 177px;
+    outline: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding-left: 25px;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-right button{
+    width: 150px;
+    height: 40px;
+    float: right;
+    margin-right: 26px;
+    background-color: #e72a2a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    font-size: 17px;
+    margin-top: 25px;
+}
+@media(max-width:649px){
+    
+.contact-me-area{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.contact-me-area .contact-me-contain-area{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0% 0% 0% 0%;
+}
+.contact-me-area .contact-me-contain-area .contact-logo{
+    width: 100%;
+    height: 20%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.contact-me-area .contact-me-contain-area .contact-logo h1{
+    text-transform: uppercase;
+}
+.contact-me-area .contact-me-contain-area .contact-logo img{
+    margin-top: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact-logo p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact{
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+.contact-me-area .contact-me-contain-area .contact .part1{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 i{
+    font-size: 30px;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 h2{
+    margin-top: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 p{
+    margin-top: 15px;
+    font-size: 17px;
+    opacity: 0.6;
+}
+.contact-me-area .contact-me-contain-area .contact .part1 .p11{
+    color:#e54b4b;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.contact-me-area .contact-me-contain-area .contact-form{
+    width: 100%;
+    height: 40%;
+    float: left;
+}
 
-
-
-
-
-
-
+.contact-me-area .contact-me-contain-area .contact-form .form-left{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-left input{
+    width: 95%;
+    height: 40px;
+    padding-left: 25px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-top: 30px;
+    outline: none;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-right{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-right input{
+    margin-top: 0px;
+    width: 95%;
+    height: 177px;
+    outline: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding-left: 25px;
+}
+.contact-me-area .contact-me-contain-area .contact-form .form-right button{
+    width: 150px;
+    height: 40px;
+    float: right;
+    margin-right: 26px;
+    background-color: #e72a2a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    font-size: 17px;
+    margin-top: 25px;
+}
+}
 
 
 /* Footer Last  */
