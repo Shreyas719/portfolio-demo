@@ -944,7 +944,7 @@ body{
     width: 150px;
     height: 40px;
     float: right;
-    margin-right: 26px;
+    margin-right: 22px;
     background-color: #e72a2a;
     color: white;
     border: none;
@@ -956,6 +956,7 @@ body{
     -o-border-radius: 7px;
     font-size: 17px;
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 }
 
